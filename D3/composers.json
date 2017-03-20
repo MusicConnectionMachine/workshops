@@ -1,0 +1,374 @@
+[
+  {
+      "yearBirth": 1525,
+      "yearDeath": 1594,
+      "period": "Renaissance",
+      "name": "Giovanni Pierluigi da Palestrina"
+  },
+  {
+      "yearBirth": 1528,
+      "yearDeath": 1599,
+      "period": "Renaissance",
+      "name": "Francisco Guerrero"
+  },
+  {
+      "yearBirth": 1543,
+      "yearDeath": 1623,
+      "period": "Renaissance",
+      "name": "William Byrd"
+  },
+  {
+      "yearBirth": 1548,
+      "yearDeath": 1611,
+      "period": "Renaissance",
+      "name": "Tomas Luis de Victoria"
+  },
+  {
+      "yearBirth": 1554,
+      "yearDeath": 1612,
+      "period": "Renaissance",
+      "name": "Giovanni Gabrieli"
+  },
+  {
+      "yearBirth": 1567,
+      "yearDeath": 1643,
+      "period": "Barock",
+      "name": "Classicudio Monteverdi"
+  },
+  {
+      "yearBirth": 1583,
+      "yearDeath": 1643,
+      "period": "Barock",
+      "name": "Girolamo Frescobaldi"
+  },
+  {
+      "yearBirth": 1585,
+      "yearDeath": 1672,
+      "period": "Barock",
+      "name": "Heinrich Schütz"
+  },
+  {
+      "yearBirth": 1632,
+      "yearDeath": 1687,
+      "period": "Barock",
+      "name": "Jean-Baptiste Lully"
+  },
+  {
+      "yearBirth": 1653,
+      "yearDeath": 1706,
+      "period": "Barock",
+      "name": "Johann Pachelbel"
+  },
+  {
+      "yearBirth": 1658,
+      "yearDeath": 1709,
+      "period": "Barock",
+      "name": "Giuseppe Torelli"
+  },
+  {
+      "yearBirth": 1659,
+      "yearDeath": 1695,
+      "period": "Barock",
+      "name": "Henry Purcell"
+  },
+  {
+      "yearBirth": 1674,
+      "yearDeath": 1754,
+      "period": "Barock",
+      "name": "Tomaso Albinoni"
+  },
+  {
+      "yearBirth": 1678,
+      "yearDeath": 1741,
+      "period": "Barock",
+      "name": "Antonio Vivaldi"
+  },
+  {
+      "yearBirth": 1683,
+      "yearDeath": 1764,
+      "period": "Barock",
+      "name": "Jean-Philippe Rameau"
+  },
+  {
+      "yearBirth": 1685,
+      "yearDeath": 1750,
+      "period": "Barock",
+      "name": "Johann Sebastian Bach"
+  },
+  {
+      "yearBirth": 1685,
+      "yearDeath": 1757,
+      "period": "Barock",
+      "name": "Domenico Scarlatti"
+  },
+  {
+      "yearBirth": 1685,
+      "yearDeath": 1759,
+      "period": "Barock",
+      "name": "George Frideric Handel"
+  },
+  {
+      "yearBirth": 1714,
+      "yearDeath": 1798,
+      "period": "Classic",
+      "name": "Christoph Willibald Gluck"
+  },
+  {
+      "yearBirth": 1714,
+      "yearDeath": 1788,
+      "period": "Classic",
+      "name": "Carl Philipp Emanuel Bach"
+  },
+  {
+      "yearBirth": 1729,
+      "yearDeath": 1783,
+      "period": "Barock",
+      "name": "Antonio Soler"
+  },
+  {
+      "yearBirth": 1732,
+      "yearDeath": 1809,
+      "period": "Classic",
+      "name": "Joseph Haydn"
+  },
+  {
+      "yearBirth": 1735,
+      "yearDeath": 1782,
+      "period": "Classic",
+      "name": "Johann Christian Bach"
+  },
+  {
+      "yearBirth": 1750,
+      "yearDeath": 1825,
+      "period": "Classic",
+      "name": "Antonio Salieri"
+  },
+  {
+      "yearBirth": 1751,
+      "yearDeath": 1825,
+      "period": "Classic",
+      "name": "Dmytro Bortniansky"
+  },
+  {
+      "yearBirth": 1752,
+      "yearDeath": 1832,
+      "period": "Classic",
+      "name": "Muzio Clementi"
+  },
+  {
+      "yearBirth": 1756,
+      "yearDeath": 1791,
+      "period": "Classic",
+      "name": "Wolfgang Amadeus Mozart"
+  },
+  {
+      "yearBirth": 1770,
+      "yearDeath": 1827,
+      "period": "Romantic",
+      "name": "Ludwig van Beethoven"
+  },
+  {
+      "yearBirth": 1782,
+      "yearDeath": 1840,
+      "period": "Romantic",
+      "name": "Niccolo Paganini"
+  },
+  {
+      "yearBirth": 1792,
+      "yearDeath": 1868,
+      "period": "Romantic",
+      "name": "Gioachino Rossini"
+  },
+  {
+      "yearBirth": 1797,
+      "yearDeath": 1828,
+      "period": "Romantic",
+      "name": "Franz Schubert"
+  },
+  {
+      "yearBirth": 1803,
+      "yearDeath": 1869,
+      "period": "Romantic",
+      "name": "Hector Berlioz"
+  },
+  {
+      "yearBirth": 1809,
+      "yearDeath": 1847,
+      "period": "Romantic",
+      "name": "Felix Mendelssohn"
+  },
+  {
+      "yearBirth": 1810,
+      "yearDeath": 1849,
+      "period": "Romantic",
+      "name": "Frederic Chopin"
+  },
+  {
+      "yearBirth": 1810,
+      "yearDeath": 1856,
+      "period": "Romantic",
+      "name": "Robert Schumann"
+  },
+  {
+      "yearBirth": 1811,
+      "yearDeath": 1886,
+      "period": "Romantic",
+      "name": "Franz Liszt"
+  },
+  {
+      "yearBirth": 1813,
+      "yearDeath": 1883,
+      "period": "Romantic",
+      "name": "Richard Wagner"
+  },
+  {
+      "yearBirth": 1813,
+      "yearDeath": 1901,
+      "period": "Romantic",
+      "name": "Giuseppe Verdi"
+  },
+  {
+      "yearBirth": 1824,
+      "yearDeath": 1884,
+      "period": "Romantic",
+      "name": "Bedrich Smetana"
+  },
+  {
+      "yearBirth": 1824,
+      "yearDeath": 1896,
+      "period": "Romantic",
+      "name": "Anton Bruckner"
+  },
+  {
+      "yearBirth": 1833,
+      "yearDeath": 1897,
+      "period": "Romantic",
+      "name": "Johannes Brahms"
+  },
+  {
+      "yearBirth": 1838,
+      "yearDeath": 1875,
+      "period": "Romantic",
+      "name": "Georges Bizet"
+  },
+  {
+      "yearBirth": 1840,
+      "yearDeath": 1893,
+      "period": "Romantic",
+      "name": "Pyotr Ilyich Tchaikovsky"
+  },
+  {
+      "yearBirth": 1841,
+      "yearDeath": 1904,
+      "period": "Romantic",
+      "name": "Antonín Dvořák"
+  },
+  {
+      "yearBirth": 1844,
+      "yearDeath": 1908,
+      "period": "Romantic",
+      "name": "Nikolai Rimsky-Korsakov"
+  },
+  {
+      "yearBirth": 1845,
+      "yearDeath": 1924,
+      "period": "Romantic",
+      "name": "Gabriel Fauré"
+  },
+  {
+      "yearBirth": 1858,
+      "yearDeath": 1924,
+      "period": "Romantic",
+      "name": "Giacomo Puccini"
+  },
+  {
+      "yearBirth": 1860,
+      "yearDeath": 1911,
+      "period": "Romantic",
+      "name": "Gustav Mahler"
+  },
+  {
+      "yearBirth": 1862,
+      "yearDeath": 1934,
+      "period": "Modern",
+      "name": "Frederick Delius"
+  },
+  {
+      "yearBirth": 1862,
+      "yearDeath": 1918,
+      "period": "Modern",
+      "name": "Classicude Debussy"
+  },
+  {
+      "yearBirth": 1864,
+      "yearDeath": 1949,
+      "period": "Modern",
+      "name": "Richard Strauss"
+  },
+  {
+      "yearBirth": 1865,
+      "yearDeath": 1957,
+      "period": "Modern",
+      "name": "Jean Sibelius"
+  },
+  {
+      "yearBirth": 1870,
+      "yearDeath": 1937,
+      "period": "Modern",
+      "name": "Louis Vierne"
+  },
+  {
+      "yearBirth": 1872,
+      "yearDeath": 1958,
+      "period": "Modern",
+      "name": "Ralph Vaughan Williams"
+  },
+  {
+      "yearBirth": 1873,
+      "yearDeath": 1943,
+      "period": "Romantic",
+      "name": "Sergei Rachmaninoff"
+  },
+  {
+      "yearBirth": 1874,
+      "yearDeath": 1954,
+      "period": "Modern",
+      "name": "Charles Ives"
+  },
+  {
+      "yearBirth": 1876,
+      "yearDeath": 1946,
+      "period": "Modern",
+      "name": "Manuel de Falla"
+  },
+  {
+      "yearBirth": 1881,
+      "yearDeath": 1945,
+      "period": "Modern",
+      "name": "Béla Bartók"
+  },
+  {
+      "yearBirth": 1882,
+      "yearDeath": 1971,
+      "period": "Modern",
+      "name": "Igor Stravinsky"
+  },
+  {
+      "yearBirth": 1891,
+      "yearDeath": 1953,
+      "period": "Modern",
+      "name": "Sergei Prokofiev"
+  },
+  {
+      "yearBirth": 1895,
+      "yearDeath": 1963,
+      "period": "Modern",
+      "name": "Paul Hindemith"
+  },
+  {
+      "yearBirth": 1912,
+      "yearDeath": 1992,
+      "period": "Modern",
+      "name": "John Cage"
+  }
+]
