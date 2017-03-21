@@ -23,11 +23,11 @@ function ComposerChart(data){
     // enter
     // -------------------------------------------------
     // TODO: add new composers for empty nodes in the enter-selection
-    // add groups for composers
+    // add group element for composers
 
-    // add rectangle to composers and set static attributes
+    // add rectangle to composers and set static attributes and styles
 
-    // add text to composers and set static attributes
+    // add text to composers and set static attributes and styles
 
     // -------------------------------------------------
     // update (all)
@@ -41,6 +41,6 @@ function ComposerChart(data){
 
     // TODO (optional): add tooltips to the composers
 
-    // TODO (optional): create the legend
+    // TODO (optional): create the legend to become a legend :-)
 
 }
