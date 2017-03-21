@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Catch Me | VisualizationG5 Workshop</title>
+<style type="text/css">
+#field {
+  width: 600px;
+  height: 600px;
+  display: block;
+  background: linear-gradient(135deg, #6fe0f3, #34fc2f);
+}
+</style>
+</head>
+<body>
+<p><a href="https://www.youtube.com/watch?v=fwB8nbI4TuM">Game Tutorial</a></p>
+<div id="field">
+<p id="score"> Score: 0 </p>
+<svg id="circle" height="30" width="30" style="position: fixed;">
+  <circle cx="15" cy="15" r="15" stroke="black" stroke-width="0" fill="red" />
+</svg>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.0.1/Rx.min.js"></script> -->
+<script type="text/javascript">
+/* Useful functions:
+	https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/fromevent.md
+	https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/frompromise.md
+	https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/interval.md
+	https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/of.md
+	https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/selectmany.md
+	https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/subscribe.md
+	https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/timeinterval.md
+*/
+
+const circle = $('#circle');
+const scoreElement = $('#score');
+circle.on('click', handleClick);
+let score = 0;
+
+function handleClick() {
+  score = score + 1;
+  scoreElement.html('Score: ' + score);
+	circle.css({ display: 'none' });
+}
+
+function displayCircle(coord) {
+	circle.css({ left: coord.x + 'px', top: coord.y + 'px', display: 'block' });
+}
+
+function loadCoordinates() {
+  return new Promise(resolve => {
+    const x = Math.floor(Math.random() * 300);
+    const y = Math.floor(Math.random() * 300);
+    setTimeout(() => {
+      resolve({
+        x,
+        y,
+      });
+    }, 30);
+  });
+}
+
+function startApp() {
+  setInterval(() => loadCoordinates().then(coord => displayCircle(coord)), 800);
+}
+
+startApp();
+
+</script>
+
+</body>
+</html>
