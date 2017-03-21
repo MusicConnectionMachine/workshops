@@ -1,0 +1,57 @@
+<article class="speakerslist <% if (pageID == 'home') { %>jumbotron hidden-xs<% } %>">
+  <div class="container">
+    <div class="row">
+        <% speakers.forEach(function(item) { %>
+        <% if (pageID == 'home') { %>
+          <% if (typeof item.foto == 'undefined') { %>
+            <div class="<% if (pageID == 'home') { %>col-sm-4 text-center<% } else { %>col-sm-8 <% } %>">
+              <h3 class="speakerslist-title"><%= item.title %></h3>
+              <h5 class="speakerslist-name">with <a href="/speakers/<%= item.shortname %>"><%= item.name %></a></h5>
+              <p class="speakerslist-info">
+                <a href="/speakers/<%= item.shortname %>">
+          <% } %>
+         <% } else { %> 
+            <div class="<% if (pageID == 'home') { %>col-sm-4 text-center<% } else { %>col-sm-8 <% } %>">
+              <h3 class="speakerslist-title"><%= item.title %></h3>
+              <h5 class="speakerslist-name">with <a href="/speakers/<%= item.shortname %>"><%= item.name %></a></h5>
+              <p class="speakerslist-info">
+                <a href="/speakers/<%= item.shortname %>">
+          <% } %>     
+
+              <% if (pageID == 'home') { %>
+                <% if (typeof item.foto == 'undefined') { %>
+                  <img class="speakerslist-img img-circle" src="/images/speakers/<%= item.shortname %>_tn.jpg" alt="Photo of <%= item.name %>"></a>
+                <% } %>
+              <% } %>
+
+              <% if (pageID == 'speakerList') { %>
+                <% if (typeof item.foto !== 'undefined') { %>
+                 <img class="speakerslist-img img-circle pull-left special_image" src="<%= item.foto %>" alt="Photo of <%= item.name %>"></a>
+                <% } else { %>
+                  <img class="speakerslist-img img-circle pull-left" src="/images/speakers/<%= item.shortname %>_tn.jpg" alt="Photo of <%= item.name %>"></a>
+                <% } %>
+              <% } %>
+            </a>
+
+            <% if (pageID == 'speakerDetail') { %>
+                <% if (typeof item.foto !== 'undefined') { %>
+                 <img class="speakerslist-img img-responsive pull-left special_image_detail" src="<%= item.foto %>" alt="Photo of <%= item.name %>"></a>
+                <% } else { %>
+                  <img class="speakerslist-img img-responsive pull-left" src="/images/speakers/<%= item.shortname %>.jpg" alt="Photo of <%= item.name %>"></a>
+                <% } %>
+              <% } %>
+            </a>
+
+            <% if (pageID !== 'home') { %>
+              <% if (pageID == 'speakerList') { %>
+                <%= item.summary %>
+              <% } else { %>
+                <%- item.description %>
+              <% } %>
+            <% } %>
+          </p>
+        </div>
+        <%  }); %>
+    </div><!-- row -->
+  </div><!-- container -->
+</article>
