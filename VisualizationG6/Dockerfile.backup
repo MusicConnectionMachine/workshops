@@ -1,0 +1,12 @@
+FROM ubuntu:latest
+RUN apt-get update && apt-get -y upgrade && apt-get -y install apache2
+
+# Expose apache
+EXPOSE 80
+
+# Copy the project files into place.
+ADD public /var/www/html/public
+ADD index.html /var/www/html
+
+# By default start up apache in the foreground. Start with /bin/bash for interative session.
+CMD /usr/sbin/apache2ctl -D FOREGROUND
