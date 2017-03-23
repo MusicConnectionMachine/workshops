@@ -1,9 +1,9 @@
 {
-  "name": "complete-intro-to-react",
+  "name": "visG6workshop",
   "version": "1.0.0",
-  "description": "A two day workshop on a complete intro to React",
+  "description": "VisG6 Workshop for JS RostLab",
   "main": "index.js",
-  "author": "Brian Holt <btholt@gmail.com>",
+  "author": "Brian Holt",
   "license": "MIT",
   "scripts": {
     "lint": "eslint js/**/*.js webpack.config.js",
@@ -15,18 +15,11 @@
     "cover": "npm run test -- --coverage"
   },
   "dependencies": {
-    "axios": "^0.15.3",
-    "express": "4.14.0",
-    "history": "^4.4.0",
     "lodash": "4.16.2",
-    "preact": "^6.4.0",
-    "preact-compat": "^3.9.3",
     "react": "15.3.2",
     "react-dom": "15.3.2",
-    "react-redux": "4.4.0",
     "react-router": "4.0.0-alpha.5",
-    "redux": "3.3.1",
-    "redux-thunk": "^2.1.0"
+    "react-test-renderer": "^15.3.2"
   },
   "devDependencies": {
     "babel-core": "6.16.0",
@@ -60,19 +53,5 @@
   },
   "directories": {
     "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/btholt/complete-intro-to-react.git"
-  },
-  "keywords": [
-    "react",
-    "workshop",
-    "intro",
-    "redux"
-  ],
-  "bugs": {
-    "url": "https://github.com/btholt/complete-intro-to-react/issues"
-  },
-  "homepage": "https://github.com/btholt/complete-intro-to-react#readme"
+  }
 }
