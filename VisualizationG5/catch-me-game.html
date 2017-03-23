@@ -29,7 +29,6 @@
 	https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/of.md
 	https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/selectmany.md
 	https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/subscribe.md
-	https://github.com/Reactive-Extensions/RxJS/blob/master/doc/api/core/operators/timeinterval.md
 */
 
 const circle = $('#circle');
@@ -37,14 +36,22 @@ const scoreElement = $('#score');
 circle.on('click', handleClick);
 let score = 0;
 
+function displayCircle(coord) {
+	circle.css({ left: coord.x + 'px', top: coord.y + 'px', display: 'block' });
+}
+
+function startApp() {
+  setInterval(() => loadCoordinates().then(coord => displayCircle(coord)), 800);
+}
+
+/* No need to change */
+
+startApp();
+
 function handleClick() {
   score = score + 1;
   scoreElement.html('Score: ' + score);
-	circle.css({ display: 'none' });
-}
-
-function displayCircle(coord) {
-	circle.css({ left: coord.x + 'px', top: coord.y + 'px', display: 'block' });
+  circle.css({ display: 'none' });
 }
 
 function loadCoordinates() {
@@ -59,13 +66,6 @@ function loadCoordinates() {
     }, 30);
   });
 }
-
-function startApp() {
-  setInterval(() => loadCoordinates().then(coord => displayCircle(coord)), 800);
-}
-
-startApp();
-
 </script>
 
 </body>
