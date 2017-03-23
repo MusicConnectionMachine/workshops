@@ -1,0 +1,40 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.composer{
+  cursor: pointer;
+}
+
+.compositor text{
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: black;
+}
+
+.legend rect{
+  fill: white;
+  stroke: aquamarine;
+  rx: 5px;
+  ry: 5px;
+}
+
+.legendItem{
+  cursor: pointer;
+}
+
+.tooltip{
+  background-color: white;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 5px;
+  text-align: center;
+  padding: 7px 7px;
+  position: absolute;
+  pointer-events: none;
+}
